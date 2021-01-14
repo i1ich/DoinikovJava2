@@ -1,0 +1,2 @@
+SUCCESS
+Config: configs/config4.txt

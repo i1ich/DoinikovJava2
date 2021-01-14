@@ -1,0 +1,6 @@
+Input: in.txt
+Output: out.txt
+Reader: Workers.IO.BurkovReader.ReaderManager readercfg.txt
+Writer: Writer Wrtr_config.txt
+Executor: Executor Wrkr_config.txt
+Order: Workers.IO.BurkovReader.ReaderManager Executor Writer

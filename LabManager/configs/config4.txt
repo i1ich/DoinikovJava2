@@ -1,0 +1,7 @@
+Input: in.txt
+Output: out.txt
+Reader: Reader Rdr_config.txt
+Writer: Writer Wrtr_config.txt
+Executor: Executor Wrkr_config.txt
+Executor: Workers.BurkovExecutor.CaseSwitcherManager executorcfg.txt
+Order: Reader Executor Workers.BurkovExecutor.CaseSwitcherManager Workers.BurkovExecutor.CaseSwitcherManager Writer

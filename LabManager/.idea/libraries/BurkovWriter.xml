@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BurkovWriter">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/BurkovWriter.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

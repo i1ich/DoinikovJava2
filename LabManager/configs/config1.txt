@@ -1,0 +1,6 @@
+Input: in.txt
+Output: out.txt
+Reader: Reader Rdr_config.txt
+Writer: Writer Wrtr_config.txt
+Executor: Executor Wrkr_config.txt
+Order: Reader Executor Writer

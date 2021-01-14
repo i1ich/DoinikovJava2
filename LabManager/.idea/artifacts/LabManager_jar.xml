@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LabManager:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LabManager_jar</output-path>
+    <root id="archive" name="LabManager.jar">
+      <element id="module-output" name="LabManager" />
+    </root>
+  </artifact>
+</component>
