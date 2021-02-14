@@ -19,7 +19,7 @@ public final class ExecutorConfigParser {
             input.useDelimiter(" |\\n");
             if(input.hasNext()) {
                 String s = input.next();
-                if(!s.equals("Size:")) {
+                if(!s.equals(Words[0])) {
                     this.log.info("Bad Executor config file ");
                 }
             }

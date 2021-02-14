@@ -22,7 +22,7 @@ public final class ReaderConfigParser {
             input.useDelimiter(" |\\n");
             if(input.hasNext()) {
                 String s = input.next();
-                if(!s.equals("Size:")) {
+                if(!s.equals(Words[0])) {
                     this.log.info("Bad reader config file ");
                 }
             }

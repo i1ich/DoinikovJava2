@@ -43,7 +43,8 @@ public class Executor implements IExecutor {
         RC RC;
         if(data.length == executorConfig.size){
             for (int i = 0; i < data.length; i++) {
-                data[i] = '1';
+                byte a = data[i];
+                data[i] = (byte)(~a);
             }
             RC = Consumer.execute(data);
         }
